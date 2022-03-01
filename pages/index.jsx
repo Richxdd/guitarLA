@@ -35,8 +35,6 @@ export async function getServerSideProps() {
   // const res = await fetch(urls)
   // const cursos = await res.json()
 
-
-
   const urlGuitarras = `${process.env.API_URL}/guitarras?_sort=precio:desc`
   const urlCursos = `${process.env.API_URL}/cursos`
   const urlBlogs = `${process.env.API_URL}/blogs?_limit=3`
